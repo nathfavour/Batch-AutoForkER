@@ -1,10 +1,10 @@
-DESCRIPTION
+	DESCRIPTION
 
 Batch-AutoForkER is a code library for forking repositories. It forks repos from a list of repositories, depending on the name of the file.
 There is a default "list" folder in this code, but it is also capable of forking lists from files within any folder in the same directory as the "local.py" main script.
 
 
-REQUIREMENTS
+	REQUIREMENTS
 
 1. Have git cli installed
 NB: You can run "brew install git" in MacOs or "sudo apt get git" in Linux
@@ -12,11 +12,11 @@ NB: You can run "brew install git" in MacOs or "sudo apt get git" in Linux
 
 2. Have github cli (gh) installed
 NB: You can run "brew install gh" in MacOs or "sudo apt get gh" in Linux
-	You will also have to set gh up by running "gh auth login" and following the command-line instructions as suitable
+	You will also have to set gh up by running "gh auth login" and following the command-line instructions as suitable.
 
 
+		USAGE
 
-USAGE
 
 1. Add your files containing the list of repos to fork in the "list" directory.
 	Note that you can name these files anything you like.
@@ -33,22 +33,22 @@ USAGE
 
 (Windows)
 
-pip install -r requirements.txt
+		pip install -r requirements.txt
 
 (MacOs/Linux)
 
-python3 -m pip install -r requirements.txt
+		python3 -m pip install -r requirements.txt
 
 
 3. Next run:
 
 (Windows)
 
-python local.py
+		python local.py
 
 (MacOs/Linux)
 
-python3 local.py
+		python3 local.py
 
 4. Report any errors to nathfavour@bainaryglobe.com
 
